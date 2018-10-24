@@ -1,0 +1,6 @@
+<resources>
+    <string name="installing">\n\t\tPress START BUTTON above to install Android system on onboard eMMC.\n\n\t\t Warn ! Every data on eMMC will be lost.\n</string>
+    <string name="do_not_exit">\n\n\n\t\t\tPLEASE DO NOT EXIT FROM THIS WINDOW.\n\n\n</string>
+    <string name="startstop">Start the installation</string>
+    <string name="app_name">eMMC Android installer</string>
+</resources>

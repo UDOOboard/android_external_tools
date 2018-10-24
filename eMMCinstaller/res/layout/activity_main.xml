@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.seco.immersivemode.MainActivity">
+
+    <Button
+        android:id="@+id/StartStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startstop"
+        android:onClick="doClick"/>
+
+   <TextView
+      android:id="@+id/DoNotExit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:text="@string/do_not_exit"
+      tools:context=".MainActivity" />
+
+    <ScrollView
+        android:id="@+id/Scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+	<TextView
+	      android:id="@+id/Messages"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_centerHorizontal="true"
+	      android:layout_centerVertical="true"
+	      android:text="@string/installing"
+	      tools:context=".MainActivity" />
+    </ScrollView>
+</LinearLayout>
