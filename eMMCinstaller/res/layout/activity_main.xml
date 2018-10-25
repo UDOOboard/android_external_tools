@@ -7,6 +7,16 @@
     android:orientation="vertical"
     tools:context="com.seco.immersivemode.MainActivity">
 
+   <TextView
+      android:id="@+id/EmptySpace"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:text="@string/empty_space"
+      tools:context=".MainActivity" />
+
     <Button
         android:id="@+id/StartStop"
         android:layout_width="match_parent"
